@@ -1,0 +1,74 @@
+
+.MYNAV
+{
+    margin: 0 ;
+}
+#nav-tab
+{
+    
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+}
+#myInput
+{
+    margin: 20px 0 0 0;
+    padding: 20px;
+    text-align: center;
+}
+#MyNav
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+#IN
+{
+    width: 40%;
+    display: inline-block;
+}
+
+@media screen and (max-width:480px) {
+    #MyNav
+    {
+        /* color: crimson; */
+         width: 20%;
+         margin: 0 10px 0 0;
+         padding: 0;
+        display: inline-block;
+        text-align: center;
+        /* margin: 100px; */
+    }
+    #ULL
+    {
+        list-style:circle;
+    }
+
+  }
+  @media screen and (max-width:580px) {
+    #IN
+    {
+        display: inline-block;
+        width: 50%;
+    }
+    #LBTN
+    {
+       
+        float: left;
+    }
+
+  }
+#TESTT
+{
+    background-color: #e3f2fd;
+    overflow: visible;
+}
+.WebText
+{
+    display: inline;
+  color: blueviolet;
+}
+.ListTable3
+{
+    display: inline-table  ;
+}
