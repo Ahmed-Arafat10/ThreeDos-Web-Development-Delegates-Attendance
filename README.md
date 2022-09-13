@@ -1,1 +1,2 @@
 # ThreeDos-Web-Development-Delegates-Attendance
+- I created this website to view all data of ThreeDos Web Development delegate & take the attendance every session in addition to adding notes for each delegate, groups each one is assigned to and so on
