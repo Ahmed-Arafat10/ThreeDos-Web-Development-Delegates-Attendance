@@ -110,8 +110,8 @@ if (isset($_GET['Delete'])) {
                                         else echo "<span style='color:purple;' >" . $DelegateData['member'] . "</span>"; ?> </td>
                                 <td style="width: auto;"> <?php PrintMessage($DelegateData['notes'], $FiredState);  ?> </td>
 
-                                <td class="bg-dark"> <a href="./AddDelegate.php?Update=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-info my-2 my-sm-0" type="submit" name="UpdateBtn">Update</button> </a> </td>
-                                <td class="bg-dark"> <a onclick="confirm('Are You Sure You Want To Delete This Delegate')" href="./ViewDelegates.php?Delete=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-danger my-2 my-sm-0" type="submit" name="DeleteBtn">Delete</button> </a> </td>
+                                <td class="bg-dark"> <a href="AddDelegate.php?Update=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-info my-2 my-sm-0" type="submit" name="UpdateBtn">Update</button> </a> </td>
+                                <td class="bg-dark"> <a onclick="confirm('Are You Sure You Want To Delete This Delegate')" href="ViewDelegates.phpelete=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-danger my-2 my-sm-0" type="submit" name="DeleteBtn">Delete</button> </a> </td>
 
                             <?php } ?>
 
@@ -220,7 +220,7 @@ if (isset($_GET['Delete'])) {
                                 <?php else : ?>
                                     <td> <?php echo "<span style='color:red;' >" . "N/A"   . "</span>"; ?> </td>
                                 <?php endif; ?>
-                                <td > <a href="./AddGroupData.php?DelID=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-info" type="submit" name="UpdateBtn">Update</button> </a> </td>
+                                <td > <a href="AddGroupData.php?DelID=<?php echo $DelegateData['DelegateID']; ?>"> <button class="btn btn-info" type="submit" name="UpdateBtn">Update</button> </a> </td>
 
                             </tr>
                         <?php } ?>

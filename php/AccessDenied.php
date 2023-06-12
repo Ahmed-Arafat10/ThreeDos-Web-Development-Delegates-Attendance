@@ -14,7 +14,7 @@ include('/xampp/htdocs/WebDelegatesAttendance/NavBar.php');
 <body>
     <?php   PrintMessage("Log In First Bitch","danger"); ?>
     <div class="text-center mt-5">
-    <img src="./AccessDenied.gif" height="40%" width="40%" alt="AccessDenied">
+    <img src="../assets/img/AccessDenied.gif" height="40%" width="40%" alt="AccessDenied">
     </div>
 </body>
 </html>
